@@ -14,6 +14,9 @@ git lfs install
 # Clone this repository
 git clone https://github.com/hannahbultmann/book-search.git
 
+# Install dependencies
+pip install -r requirements.txt
+
 # Go into the repository
 cd book-search/src
 
