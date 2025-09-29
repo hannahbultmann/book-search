@@ -3,6 +3,8 @@ A command-line chatbot that helps you discover your next favourite book.
 It uses tf-idf vectorization and cosine-similarity to compare your query with book descriptions stored in the dataset.
 Instead of browsing through endless lists, talk to the playful "librarian" chatbot.
 
+Based on data from the [Open Library](https://openlibrary.org/developers/dumps).
+
 ## How to use
 To clone this app, you need [Git Large File Storage (LFS)](https://git-lfs.com) installed on your computer. 
 Then, from your command line run:
