@@ -1,12 +1,15 @@
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
+import random
 from collections import defaultdict
 from tqdm import tqdm
 tqdm.pandas()
+
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+
 import preprocess as prep
-import random
+
 
 
 class BookSearch():
