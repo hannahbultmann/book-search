@@ -45,6 +45,8 @@ def preprocess(text):
 
 
 if __name__ == "__main__":
+    # Requires the prior execution of 'build_data.ipynb' as the raw data is not included in the git repository.
+    
     # Load raw data
     df = pd.read_json("../data/data.json", orient="records")
 
