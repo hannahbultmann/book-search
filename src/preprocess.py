@@ -26,6 +26,7 @@ def remove_punct_num(text):
     return no_punct
 
 
+# Lemmatization
 def lemmatizer(text):
     doc = nlp(text)
     
@@ -36,6 +37,7 @@ def lemmatizer(text):
     return lemmatized_text
 
 
+## Complete preprocessing pipeline
 def preprocess(text):
     
     clean_text = remove_punct_num(text)
