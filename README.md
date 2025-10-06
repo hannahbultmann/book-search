@@ -1,4 +1,7 @@
 # 📚 BookSearch
+![Python](https://img.shields.io/badge/python-<3.13-blue?logo=python)
+![License](https://img.shields.io/github/license/hannahbultmann/book-search)
+
 A command-line chatbot that helps you discover your next favourite book.
 It uses tf-idf vectorization and cosine-similarity to compare your query with book descriptions stored in the dataset.
 Instead of browsing through endless lists, talk to the playful "librarian" chatbot.
