@@ -1,5 +1,5 @@
 # 📚 BookSearch
-![Python](https://img.shields.io/badge/python-<3.13-blue?logo=python)
+![Python](https://img.shields.io/badge/python-<3.13-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/github/license/hannahbultmann/book-search)
 
 A command-line chatbot that helps you discover your next favourite book.
