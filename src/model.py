@@ -168,7 +168,7 @@ class BookSearch():
             description = self.df.iloc[idx]["description"]
 
             print(f'"{title}" by {author}')
-            print(f"published in {year}")
+            print(f"\tpublished in {year}")
             print(description, "\n")
 
 
